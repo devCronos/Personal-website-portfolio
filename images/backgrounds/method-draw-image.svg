@@ -1,0 +1,18 @@
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text font-style="normal" font-weight="normal" stroke="#000" transform="matrix(1.7502214545761492,0,0,2.36493387924665,-127.2599295282048,-156.9123495307415) " xml:space="preserve" text-anchor="start" font-family="'Palatino Linotype', 'Book Antiqua', Palatino, serif" font-size="24" id="svg_1" y="126.577179" x="143.679364" stroke-width="0" fill="#ffffff">Claudiu Bargianu</text>
+  <text font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="'Palatino Linotype', 'Book Antiqua', Palatino, serif" font-size="29" id="svg_3" y="197" x="185.132813" stroke-width="0" stroke="#000" fill="#ffffff">Welcomes you ;)</text>
+  <text font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="'Palatino Linotype', 'Book Antiqua', Palatino, serif" font-size="24" id="svg_5" y="230.813008" x="109.148438" stroke-width="0" stroke="#000" fill="#ffffff">Aspiring Full-Stack Web Developer</text>
+  <rect id="svg_26" height="68.544694" width="381.690661" y="93.644916" x="95.809136" stroke-width="1.5" stroke="#ffffff" fill="none"/>
+ </g>
+</svg>

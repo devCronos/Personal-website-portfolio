@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Web developer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--fonts    -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Overpass+Mono" rel="stylesheet">
+<!--my style-->
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+<!--jQ-ui-->
+    <link rel="stylesheet" href="styles/jquery-ui.min.css">
+
+</head>
+<body>
+
+<nav class="nav-collapse" id="sc1">
+    <ul>
+        <!--<li class="limenu"><a id="menu-button" href="#">menu</a></li>-->
+        <!--removed titles-->
+        <li class="licollapse"><a class="smooth collapse" href="#home" >Home</a></li>
+        <li class="licollapse"><a class="smooth collapse" href="#aboutme" >About me</a></li>
+        <li class="licollapse"><a class="smooth collapse" href="#projects" >Projects</a></li>
+        <li class="licollapse" id="skillnav"><a class="smooth collapse" href="#achievements" >Achievements</a></li>
+        <li class="licollapse" id="contactnav"><a class="smooth collapse" href="#contactme" >Contact me</a></li>
+        <!--adddd section name???-->
+    </ul>
+</nav>
+<div id="top-shadow"></div>
+
+<div id="main-container">
+<!--hero-->
+    <div id="home">
+        <div class="hero-image">
+            <div class="hero-text"></div>
+            <div class="ratchet-responsive"></div>
+        </div>
+    </div>
+<!--aboutme-->
+    <div class="segment" id="aboutme">
+        <div id="aboutme-picture">
+            <img src="images/picture.jpg">
+        </div>
+        <div id="aboutme-text">
+            <h1>Welcome to my <span>personal</span> sandbox</h1>
+            <br>
+            <p>I'm a <span>passionate</span> web developer who has been a <span>pharmacist</span> in a past life.</p><br><p> I make a huge deal out of making my interfaces first and foremost <span>human friendly</span> and then aesthetically pleasing. After all, there is a human behind each and every <span>internet machine</span> and sometimes, their steps must be guided through your graphic architecture, their <span>clicks</span> must be rewarded with just the right hover effect or animation and their <span>attention</span>  directed towards the main <span>purpose</span> of the website/application. I will not let my finger touch the keyboard until I fully <span>empathize</span> and <span>understand</span> the future user and grasp the big picture of the project.</p>
+            <br>
+            <p>I found myself browsing daily, looking for <span>standards</span>-based methodology and learning from the best to ultimately make my work more understandable for <span>the user</span> as well as for <span>my teammates</span>. I can also write SEO friendly code.</p>
+            <br>
+            <p>I will always <span>appreciate</span> critique, tips, advices on my craft as well as on how to do better in the industry.</p>
+        </div>
+    </div>
+<!--projects-->
+    <div id="projects">
+        <div class="flex-container">
+<!--diary done-->
+            <div class="item">
+                <img src="images/thumbnails/rsz_capturesecret.png" alt="pepsi">
+                <div class="item-overlay top">
+                    <span class="overlay-header">
+                        <figure>
+                            <a href="https://github.com/devCronos/The-Complete-Web-Developer-Course-2.0-final-projects/tree/master/12-diary%20project%20auth%2Bmail%20confirm%2Bajax" target="_blank">
+                                <img src='images/icons/invertocat.png' alt='missing' />
+                                <figcaption>GitHub</figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="https://secretdiaryy.000webhostapp.com/" target="_blank">
+                                <img src='images/icons/magnifying.png' alt='missing' />
+                                <figcaption>Visit</figcaption>
+                            </a>
+                        </figure>
+                    </span>
+                    <div class="item-description">
+                        <p>Secret Diary project for practicing Bootstrap, jQuery, form validation, PHP authentication, cookies/sessions, MySQL entries, mail confirmation, ajax</p>
+                    </div>
+                </div>
+            </div>
+<!--twitter test-->
+            <div class="item">
+                <img src="images/thumbnails/twitterPNG.jpg" alt="pepsi">
+                <div class="item-overlay top">
+                    <span class="overlay-header">
+                        <figure>
+                            <a href="https://github.com/devCronos/The-Complete-Web-Developer-Course-2.0-final-projects/tree/master/13-tviter%20mvc" target="_blank">
+                                <img src='images/icons/invertocat.png' alt='missing' />
+                                <figcaption>GitHub</figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="projects/13-tviter%20mvc/index.php" target="_blank">
+                                <img src='images/icons/magnifying.png' alt='missing' />
+                                <figcaption>Visit</figcaption>
+                            </a>
+                        </figure>
+                    </span>
+                    <div class="item-description">
+                        <p>Twitter clone project for practicing MVC architecture, PHP authentication, cookies/sessions, email confirmation, MySQL entries, Bootstrap, search/follow features </p>
+                    </div>
+                </div>
+            </div>
+<!--weather done-->
+            <div class="item">
+                <img src="images/thumbnails/weatherPNG.jpg" alt="pepsi">
+                <div class="item-overlay top">
+                    <span class="overlay-header">
+                        <figure>
+                            <a href="https://github.com/devCronos/The-Complete-Web-Developer-Course-2.0-final-projects/blob/master/10-11-weather%20app%20htmlscraper%20and%20api%20versions/htmlscraper.php" target="_blank">
+                                <img src='images/icons/invertocat.png' alt='missing' />
+                                <figcaption>GitHub</figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="projects/10-11-weather%20app%20htmlscraper%20and%20api%20versions/htmlscraper.php" target="_blank">
+                                <img src='images/icons/magnifying.png' alt='missing' />
+                                <figcaption>Visit</figcaption>
+                            </a>
+                        </figure>
+                    </span>
+                    <div class="item-description">
+                        <p>Weather forecast via web scraping</p>
+                    </div>
+                    <span class="overlay-header">
+                        <figure>
+                            <a href="https://github.com/devCronos/The-Complete-Web-Developer-Course-2.0-final-projects/blob/master/10-11-weather%20app%20htmlscraper%20and%20api%20versions/api.php" target="_blank">
+                                <img src='images/icons/invertocat.png' alt='missing' />
+                                <figcaption>GitHub</figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="projects/10-11-weather%20app%20htmlscraper%20and%20api%20versions/api.php" target="_blank">
+                                <img src='images/icons/magnifying.png' alt='missing' />
+                                <figcaption>Visit</figcaption>
+                            </a>
+                        </figure>
+                    </span>
+                    <div class="item-description">
+                        <p>Weather forecast via api</p>
+                        <p>+practicing mouse parallax effect</p>
+                    </div>
+                </div>
+            </div>
+<!--forms validation done-->
+            <div class="item">
+                <img src="images/thumbnails/formvalidatorPNG.jpg" alt="pepsi">
+                <div class="item-overlay top">
+                    <span class="overlay-header">
+                        <figure>
+                            <a href="https://github.com/devCronos/The-Complete-Web-Developer-Course-2.0-final-projects/tree/master/4-form%20validation%20jquery" target="_blank">
+                                <img src='images/icons/invertocat.png' alt='missing' />
+                                <figcaption>GitHub</figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="projects/4-form%20validation%20jquery/index.html" target="_blank">
+                                <img src='images/icons/magnifying.png' alt='missing' />
+                                <figcaption>Visit</figcaption>
+                            </a>
+                        </figure>
+                    </span>
+                    <div class="item-description">
+                        <p>jQuery form validation practice</p>
+                    </div>
+                    <span class="overlay-header">
+                        <figure>
+                            <a href="https://github.com/devCronos/The-Complete-Web-Developer-Course-2.0-final-projects/tree/master/5-form%20validation%20php" target="_blank">
+                                <img src='images/icons/invertocat.png' alt='missing' />
+                                <figcaption>GitHub</figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="projects/5-form%20validation%20php/form.php" target="_blank">
+                                <img src='images/icons/magnifying.png' alt='missing' />
+                                <figcaption>Visit</figcaption>
+                            </a>
+                        </figure>
+                    </span>
+                    <div class="item-description">
+                        <p>PHP form validation practice</p>
+                    </div>
+                </div>
+            </div>
+<!--code interp done-->
+            <div class="item">
+                <img src="images/thumbnails/codeInterpPNG.jpg" alt="pepsi">
+                <div class="item-overlay top">
+                    <span class="overlay-header">
+                        <figure>
+                            <a href="https://github.com/devCronos/The-Complete-Web-Developer-Course-2.0-final-projects/tree/master/3-code%20interpreter%20HTML%20CSS%20JS" target="_blank">
+                                <img src='images/icons/invertocat.png' alt='missing' />
+                                <figcaption>GitHub</figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="projects/3-code%20interpreter%20HTML%20CSS%20JS/index.html" target="_blank">
+                                <img src='images/icons/magnifying.png' alt='missing' />
+                                <figcaption>Visit</figcaption>
+                            </a>
+                        </figure>
+                    </span>
+                    <div class="item-description">
+                        <p>HTML CSS javaScript Code interpreter project for practicing jQuery</p>
+                    </div>
+                </div>
+            </div>
+<!--css exercise done-->
+            <div class="item">
+                <img src="images/thumbnails/bbcclonePNG.jpg" alt="pepsi">
+                <div class="item-overlay top">
+                    <span class="overlay-header">
+                        <figure>
+                            <a href="https://github.com/devCronos/The-Complete-Web-Developer-Course-2.0-final-projects/tree/master/1-bbc%20news%20recreate%20css" target="_blank">
+                                <img src='images/icons/invertocat.png' alt='missing' />
+                                <figcaption>GitHub</figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="projects/1-bbc%20news%20recreate%20css/index.html" target="_blank">
+                                <img src='images/icons/magnifying.png' alt='missing' />
+                                <figcaption>Visit</figcaption>
+                            </a>
+                        </figure>
+                    </span>
+                    <div class="item-description">
+                        <p>BBC page copy project for practicing CSS</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+<!--achievements-->
+    <div class="segment" id="achievements">
+<!--personal website        -->
+        <div class="ach-entry">
+            <h3>25-04-2017</h3>
+            <p>Finished building my <a href="https://claudiubargianu.000webhostapp.com/" title="100% Responsive website
+built without dedicated tools" target="_blank">personal website</a> with fine craft.</p>
+        </div>
+        <img src="images/icons/star.png">
+<!--javascript-->
+        <div class="ach-entry">
+            <h3>16-04-2017</h3>
+            <p>Completed <a href="http://www.informit.com/store/javascript-jquery-and-jquery-ui-complete-video-course-9780134505848" title="16+ Hours of Video Instruction Overview:
+In JavaScript, jQuery and jQuery UI: An Introduction to Front-End Web Development, expert JavaScript developer, instructor, and author Marty Hall provides a practical, hands-on introduction to front-end Web programming with JavaScript, jQuery, jQuery UI, HTML, and CSS." target="_blank">JavaScript jQuery and jQuery UI Complete Video Course - An Introduction to Front End Web Development</a></p>
+        </div>
+        <img src="images/icons/star.png">
+<!--php with ajax-->
+        <div class="ach-entry">
+            <h3>08-04-2017</h3>
+            <p>Completed <a href="https://www.lynda.com/Ajax-tutorials/Ajax-PHP/513593-2.html" title="Topics include:
+What is Ajax?
+Creating Ajax requests and responses
+Monitoring Ajax request state and events
+Responding to Ajax requests with HTML and JSON
+Building Ajax buttons
+Submitting forms with Ajax
+Implementing infinite scrolling
+Adding autosuggestions to text fields" target="_blank">Ajax with PHP: Add Dynamic Content to Websites</a></p>
+        </div>
+        <img src="images/icons/star.png">
+<!--web dev 2.0-->
+        <div class="ach-entry">
+            <h3>24-03-2017</h3>
+            <p>Completed <a href="https://www.udemy.com/the-complete-web-developer-course-2/" title="The course starts with the fundamentals. I’ll show you insider tips to work quickly and efficiently with web technologies like HTML5, CSS3 and Python.
+Once you’ve got that locked down, I’ll show you how to build your own responsive websites using more advanced techniques such as iQuery PHP 7, MySQL 5 and Twitter Bootstrap.
+By then you’ll be developing blogs and eCommerce sites with Wordpress, and learn smart ways to add dynamic content, using APls to connect to sites such as Google Maps and Facebook.
+As we all know, the best way to learn is to do, so you’ll complete fun website challenges at every turn. Plus, as you fly through the course, you’ll use your skills to put a site together as you go. The final challenge is a full Twitter clone." target="_blank">The Complete Web Developer Course 2.0</a></p>
+            <p>(Learn By Doing - build 25 websites and real mobile apps using HTML, CSS, Javascript, jQuery, PHP, Python, MySQL and more)</p>
+        </div>
+        <img src="images/icons/star.png">
+<!--automate-->
+        <div class="ach-entry">
+            <h3>11-02-2017</h3>
+            <p>Completed <a href="https://automatetheboringstuff.com/" title="Once you've mastered the basics of programming, you'll create Python programs that effortlessly perform useful and impressive feats of automation to:
+
+Search for text in a file or across multiple files
+Create, update, move, and rename files and folders
+Search the Web and download online content
+Update and format data in Excel spreadsheets of any size
+Split, merge, watermark, and encrypt PDFs
+Send reminder emails and text notifications
+Fill out online forms" target="_blank">Automate the Boring Stuff with Python</a></p>
+        </div>
+
+    </div>
+</div>
+<!--footer-->
+<div class="footer" id="contactme">
+    <div class="foot-section">
+        <h4>Handcrafted with passion by</h4>
+        <h1>Claudiu Bargianu</h1>
+        <p><img src="images/icons/mail-128.png"> claudiu.bargianu@yahoo.com</p>
+    </div>
+    <div class="foot-linker">
+        <h1>FACEBOOK</h1>
+        <p><a href="https://www.facebook.com/claudiu.bargianu.1" target="_blank">Follow me</a> on Facebook</p>
+    </div>
+    <div class="foot-linker">
+        <h1>LINKEDIN</h1>
+        <p><a href="https://www.linkedin.com/in/claudiu-bargianu-iasi/" target="_blank">Connect+Network</a> with me</p>
+    </div>
+    <div class="foot-linker">
+        <h1>GITHUB</h1>
+        <p><a href="https://github.com/devCronos" target="_blank">Check out</a> my github</p>
+    </div>
+    <div class="foot-linker">
+        <h2>Download R&eacute;sum&eacute;</h2>
+        <a href="files/CV-BargianuClaudiu-EN.pdf" download=""><img src="images/icons/download.png"></a>
+    </div>
+</div>
+
+<!--jquery-->
+<script
+        src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+        crossorigin="anonymous"></script>
+<!--if cdn dies-->
+<script>!window.jQuery && document.write('<script src="scripts/jquery-3.2.1.min.js"><\/script>')</script>
+
+<script type="text/javascript" src="scripts/scrollspy.min.js"></script>
+<script type="text/javascript" src="scripts/jquery-ui.min.js"></script>
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+<!--last one-->
+<script type="text/javascript" src="scripts/script.js"></script>
+</body>
+</html>

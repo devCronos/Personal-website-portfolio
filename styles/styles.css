@@ -1,0 +1,293 @@
+@media screen and (max-width:580px){
+
+    #sc1 ul {
+        display:flex;
+        font-size: 13px!important;
+        padding:0 !important;
+    }
+    .hero-text {
+        display:none;
+    }
+    .ratchet-responsive{
+        height:600px;
+        width:100%;
+        background-color:transparent;
+        background-image: url("../images/backgrounds/method-draw-image.svg ");
+        background-position: center;
+        background-repeat: no-repeat;
+        position:absolute;
+    }
+    .segment {
+        padding: 100px 5% !important;
+    }
+    .nav-collapse ul {
+        margin: 0px 0 1.4rem 0!important;
+    }
+
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/*--------------*----------------NAVBAR-*-----------------*------------------------*/
+ul {
+    border-bottom: 1px solid #ccc;
+    list-style: none;
+    margin: 0 0 1.4rem 0;
+    padding: 0;
+}
+
+li {
+    background-image: linear-gradient(to bottom, transparent 50%, #a6dcba 50%, #afebc8 95%, #5dab7a 95%);
+    background-size: 100% 200%;
+    background-position: top center;
+    color: #666;
+    display: block;
+    text-align: center;
+    /*text-decoration: none;*/
+    transition: all .15s ease-in-out;
+
+}
+
+li:hover {
+    background-position: bottom center;
+    color: rgba(0, 0, 0, 0.75);
+}
+li a:hover {
+    color: #3a7b57;
+}
+li a {
+    color: #f8f8f8;
+    display: block;
+    padding: 9px 0;
+    transition: all .25s ease-in-out;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#sc1 ul {
+    display: flex;
+    width: 100%;
+    font-size: 1.1rem;
+    padding:0 10%;
+    position:fixed;
+    top:0;
+    background-color: #7ec097;
+    z-index: 1000;
+    /*font-family: 'Open Sans', sans-serif;*/
+
+}
+#sc1 ul li {
+    flex: 1 1 100%;
+}
+#sc1 ul .active {
+    background-position: bottom center;
+    /*color: rgba(0, 0, 0, 0.75);*/
+}
+/*----------*----------------SHADOW-*-----------------*-------------*--------------*/
+#top-shadow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 38px;
+    z-index: 999;
+    -webkit-box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
+    display: none
+}
+
+/*----------*-----------------*-----------------*-------------*--------------*/
+#main-container{
+    margin-top: 20px;
+}
+
+/*----------*---------------HERO IMAGE--*-----------------*-------------*--------------*/
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.6)), url("../images/backgrounds/heroplaceholder.jpeg");
+    height: 40rem;
+    background-position:top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.hero-text {
+    height:600px;
+    width:100%;
+    background-color:transparent;
+    background-image: url("../images/backgrounds/method-draw-image (1).svg ");
+    background-position: center;
+    background-repeat: no-repeat;
+    position:absolute;
+    /*height: auto;*/
+}
+
+/*----------------*--------ABOUTME---------*----------------*---------------*/
+.segment{
+    /*text-align: center;*/
+    margin: 0 auto;
+    /*padding: 100px 15%;*/
+    height: auto;
+    background-color: #aec8a6;
+    font-family: 'Overpass Mono', monospace!important;
+}
+
+#aboutme{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: stretch;
+}
+#aboutme-picture{
+    margin: 50px auto;
+    display: block;
+    width:35%;
+    min-width: 300px;
+}
+#aboutme-picture img{
+    max-width: 100%;
+    height: auto;
+    /*width: 400px;*/
+}
+#aboutme-text{
+    padding: 50px 5%;
+    width: 60%;
+    color: white;
+    min-width: 330px;
+}
+#aboutme-text span{
+    font-weight: bold;
+    color: #61896c;
+    font-style: italic;
+}
+#aboutme-text h1{
+    color:white;
+}
+
+/*----------------*--------PROJECTS----------*-------------------*-----------------*/
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-height: 790px;
+    background-image: url('../images/backgrounds/projects hehe.jpg');
+    background-position:top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.item {
+    position: relative;
+    border: 1px solid #333;
+    margin: 2%;
+    overflow: hidden;
+    min-width: 300px;
+    max-width: 20%;
+    height: auto;
+}
+.item img {
+    max-width: 100%;
+}
+.item:hover .item-overlay.top {
+    top: 0;
+}
+.item-overlay {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+
+    background: rgba(0,0,0,0.7);
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+
+    -moz-transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+    -webkit-transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+    transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+}
+.item-overlay.top {
+    top: 100%;
+}
+.item-overlay a{
+    text-decoration: none;
+    color:#fff;
+}
+.item-overlay a:visited{
+    color:#fff
+}
+.item-overlay figure img{
+    width: 40px;
+}
+.item-overlay figure {
+    display: inline-flex;
+    margin: 12px 35px;
+}
+.item-description{
+    text-align: center;
+}
+/*-----------------*-----ACHIEVEMENTS-----------*------------------*--------------------*/
+#achievements{
+    /*min-height 1kpx makes scrollspy not go crazy at the bottom */
+    min-height: 1000px;
+    text-align: center;
+    padding: 100px 27%;
+    color:white;
+}
+.ui-tooltip {
+    white-space: pre-line;
+}
+.ach-entry a{
+    text-decoration: none;
+    color:#61896C;
+}
+/*--------------*-----------FOOTER---------*-------------------*-------------*/
+.footer{
+    display: flex;
+    min-height: 150px;
+    background-color: #292c2f;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: stretch;
+    color: white;
+}
+.foot-section{
+    flex-grow:2;
+    padding:20px 10px;
+}
+.foot-section img{
+    vertical-align:middle;
+    height: 30px;
+}
+.foot-linker{
+    padding:20px 10px;
+    flex-grow: 1;
+    color: #cae4c2;
+}
+.foot-linker p{
+    margin-top:25px;
+}
+.foot-linker a{
+    color: #61896c;
+}
+.foot-linker img{
+    height: 100px;
+    padding:10px 5px 0 80px;
+}
